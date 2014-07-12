@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF62BFFD197143AB000B2813 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62BFFC197143AB000B2813 /* main.m */; };
+		BF62C000197143AB000B2813 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62BFFF197143AB000B2813 /* AppDelegate.m */; };
+		BF62C003197143AB000B2813 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62C002197143AB000B2813 /* GameScene.m */; };
+		BF62C005197143AB000B2813 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BF62C004197143AB000B2813 /* GameScene.sks */; };
+		BF62C008197143AB000B2813 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62C007197143AB000B2813 /* GameViewController.m */; };
+		BF62C00B197143AB000B2813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF62C009197143AB000B2813 /* Main.storyboard */; };
+		BF62C00D197143AB000B2813 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF62C00C197143AB000B2813 /* Images.xcassets */; };
+		BF62C019197143AB000B2813 /* MMButtonNodeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF62C018197143AB000B2813 /* MMButtonNodeDemoTests.m */; };
+		BF98A5F0197144EC001A9D48 /* MMButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BF98A5EF197144EC001A9D48 /* MMButtonNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF62C013197143AB000B2813 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF62BFEF197143AB000B2813 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF62BFF6197143AB000B2813;
+			remoteInfo = MMButtonNodeDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF62BFF7197143AB000B2813 /* MMButtonNodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMButtonNodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF62BFFB197143AB000B2813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF62BFFC197143AB000B2813 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF62BFFE197143AB000B2813 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF62BFFF197143AB000B2813 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF62C001197143AB000B2813 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		BF62C002197143AB000B2813 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		BF62C004197143AB000B2813 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BF62C006197143AB000B2813 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		BF62C007197143AB000B2813 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		BF62C00A197143AB000B2813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF62C00C197143AB000B2813 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF62C012197143AB000B2813 /* MMButtonNodeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMButtonNodeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF62C017197143AB000B2813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF62C018197143AB000B2813 /* MMButtonNodeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMButtonNodeDemoTests.m; sourceTree = "<group>"; };
+		BF98A5EE197144EC001A9D48 /* MMButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMButtonNode.h; sourceTree = "<group>"; };
+		BF98A5EF197144EC001A9D48 /* MMButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMButtonNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF62BFF4197143AB000B2813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF62C00F197143AB000B2813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF62BFEE197143AB000B2813 = {
+			isa = PBXGroup;
+			children = (
+				BF98A5ED197144EC001A9D48 /* MMButtonNode */,
+				BF62BFF9197143AB000B2813 /* MMButtonNodeDemo */,
+				BF62C015197143AB000B2813 /* MMButtonNodeDemoTests */,
+				BF62BFF8197143AB000B2813 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF62BFF8197143AB000B2813 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF62BFF7197143AB000B2813 /* MMButtonNodeDemo.app */,
+				BF62C012197143AB000B2813 /* MMButtonNodeDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF62BFF9197143AB000B2813 /* MMButtonNodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF62BFFE197143AB000B2813 /* AppDelegate.h */,
+				BF62BFFF197143AB000B2813 /* AppDelegate.m */,
+				BF62C001197143AB000B2813 /* GameScene.h */,
+				BF62C002197143AB000B2813 /* GameScene.m */,
+				BF62C006197143AB000B2813 /* GameViewController.h */,
+				BF62C007197143AB000B2813 /* GameViewController.m */,
+				BF62C009197143AB000B2813 /* Main.storyboard */,
+				BF62C00C197143AB000B2813 /* Images.xcassets */,
+				BF98A5F1197146D0001A9D48 /* xcode 6 feature */,
+				BF62BFFA197143AB000B2813 /* Supporting Files */,
+			);
+			path = MMButtonNodeDemo;
+			sourceTree = "<group>";
+		};
+		BF62BFFA197143AB000B2813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF62BFFB197143AB000B2813 /* Info.plist */,
+				BF62BFFC197143AB000B2813 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF62C015197143AB000B2813 /* MMButtonNodeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF62C018197143AB000B2813 /* MMButtonNodeDemoTests.m */,
+				BF62C016197143AB000B2813 /* Supporting Files */,
+			);
+			path = MMButtonNodeDemoTests;
+			sourceTree = "<group>";
+		};
+		BF62C016197143AB000B2813 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF62C017197143AB000B2813 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF98A5ED197144EC001A9D48 /* MMButtonNode */ = {
+			isa = PBXGroup;
+			children = (
+				BF98A5EE197144EC001A9D48 /* MMButtonNode.h */,
+				BF98A5EF197144EC001A9D48 /* MMButtonNode.m */,
+			);
+			name = MMButtonNode;
+			path = MMButtonNodeDemo/MMButtonNode;
+			sourceTree = "<group>";
+		};
+		BF98A5F1197146D0001A9D48 /* xcode 6 feature */ = {
+			isa = PBXGroup;
+			children = (
+				BF62C004197143AB000B2813 /* GameScene.sks */,
+			);
+			name = "xcode 6 feature";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF62BFF6197143AB000B2813 /* MMButtonNodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF62C01C197143AB000B2813 /* Build configuration list for PBXNativeTarget "MMButtonNodeDemo" */;
+			buildPhases = (
+				BF62BFF3197143AB000B2813 /* Sources */,
+				BF62BFF4197143AB000B2813 /* Frameworks */,
+				BF62BFF5197143AB000B2813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMButtonNodeDemo;
+			productName = MMButtonNodeDemo;
+			productReference = BF62BFF7197143AB000B2813 /* MMButtonNodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF62C011197143AB000B2813 /* MMButtonNodeDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF62C01F197143AB000B2813 /* Build configuration list for PBXNativeTarget "MMButtonNodeDemoTests" */;
+			buildPhases = (
+				BF62C00E197143AB000B2813 /* Sources */,
+				BF62C00F197143AB000B2813 /* Frameworks */,
+				BF62C010197143AB000B2813 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF62C014197143AB000B2813 /* PBXTargetDependency */,
+			);
+			name = MMButtonNodeDemoTests;
+			productName = MMButtonNodeDemoTests;
+			productReference = BF62C012197143AB000B2813 /* MMButtonNodeDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF62BFEF197143AB000B2813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = SXX;
+				TargetAttributes = {
+					BF62BFF6197143AB000B2813 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					BF62C011197143AB000B2813 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = BF62BFF6197143AB000B2813;
+					};
+				};
+			};
+			buildConfigurationList = BF62BFF2197143AB000B2813 /* Build configuration list for PBXProject "MMButtonNodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF62BFEE197143AB000B2813;
+			productRefGroup = BF62BFF8197143AB000B2813 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF62BFF6197143AB000B2813 /* MMButtonNodeDemo */,
+				BF62C011197143AB000B2813 /* MMButtonNodeDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF62BFF5197143AB000B2813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF62C00D197143AB000B2813 /* Images.xcassets in Resources */,
+				BF62C005197143AB000B2813 /* GameScene.sks in Resources */,
+				BF62C00B197143AB000B2813 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF62C010197143AB000B2813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF62BFF3197143AB000B2813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF62C008197143AB000B2813 /* GameViewController.m in Sources */,
+				BF98A5F0197144EC001A9D48 /* MMButtonNode.m in Sources */,
+				BF62C000197143AB000B2813 /* AppDelegate.m in Sources */,
+				BF62C003197143AB000B2813 /* GameScene.m in Sources */,
+				BF62BFFD197143AB000B2813 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF62C00E197143AB000B2813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF62C019197143AB000B2813 /* MMButtonNodeDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF62C014197143AB000B2813 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF62BFF6197143AB000B2813 /* MMButtonNodeDemo */;
+			targetProxy = BF62C013197143AB000B2813 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF62C009197143AB000B2813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF62C00A197143AB000B2813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF62C01A197143AB000B2813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF62C01B197143AB000B2813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF62C01D197143AB000B2813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMButtonNodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF62C01E197143AB000B2813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMButtonNodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF62C020197143AB000B2813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMButtonNodeDemo.app/MMButtonNodeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMButtonNodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		BF62C021197143AB000B2813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MMButtonNodeDemo.app/MMButtonNodeDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMButtonNodeDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF62BFF2197143AB000B2813 /* Build configuration list for PBXProject "MMButtonNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF62C01A197143AB000B2813 /* Debug */,
+				BF62C01B197143AB000B2813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF62C01C197143AB000B2813 /* Build configuration list for PBXNativeTarget "MMButtonNodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF62C01D197143AB000B2813 /* Debug */,
+				BF62C01E197143AB000B2813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF62C01F197143AB000B2813 /* Build configuration list for PBXNativeTarget "MMButtonNodeDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF62C020197143AB000B2813 /* Debug */,
+				BF62C021197143AB000B2813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF62BFEF197143AB000B2813 /* Project object */;
+}
